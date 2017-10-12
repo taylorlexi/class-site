@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+ }
+ .left{
+ 	margin-right:50%;
+ 	margin-left:20%;
+ 	padding-top:10%;
+ 	padding-bottom:10%;
+ 	font-family:cursive;
+ 	text-align:center;
+ }
+ .right{
+ 	margin-left:50%;
+ 	margin-right:20%;
+ 		padding-top:10%;
+ 	padding-bottom:10%;
+ 	font-family:cursive;
+ 	text-align:center;
+ }
+ .title{
+ 	margin-right:45%;
+ 	margin-left:45%;
+ 	text-align:center;
+ 	font-size:25px;
+ }
+ .paragraph{
+ 	margin-left:20%;
+ 	margin-right:20%;
+ }
+.righta{
+	margin-left:60%;
+	margin-right:15%;
+
+    float:right;
+}
+.lefta{
+	margin-left:15%;
+	margin-right:60%;
+}

@@ -1,0 +1,20 @@
+.title{
+	line-height:5px;
+	float:center;
+	margin-right:40%;
+	margin-left:40%;
+	position:static;
+}
+.text{
+	margin-right:30%;
+	margin-left:30%;
+	padding-bottom:10%;
+	letter-spacing:5%;
+}
+a{
+	margin-left:60%;
+	margin-right:15%;
+	border-style: solid;
+    border-width: 3px;
+    float:right;
+}

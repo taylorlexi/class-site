@@ -1,0 +1,44 @@
+h1{
+font-weight:20px;
+text-align:center;
+font-family:sans-serif;
+padding-top:5%;
+}
+h2{
+	line-height:25px;
+	text-align:center;
+	font-family:cursive;
+}
+
+h3{
+	line-height:25px;
+	text-align:center;
+	font-family:sans-serif;
+}
+h4{
+	line-height:25px;
+	font-weight:40px;
+	text-align:center;
+}
+
+.title{
+	margin-right:45%;
+	margin-left:45%;
+	border-style: solid;
+    border-width: 5px;
+    text-align:center;
+    font-weight:30%;
+    font-style:fantasy;
+}
+
+.right{
+	margin-left:60%;
+	margin-right:15%;
+
+    float:right;
+}
+.left{
+	margin-left:15%;
+	margin-right:60%;
+}
+

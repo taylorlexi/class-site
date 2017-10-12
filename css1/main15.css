@@ -1,0 +1,75 @@
+.title{
+	margin-left:45%;
+	margin-right:45%;
+	text-align:center;
+	font-weight:bolder;
+	font-size:20px;
+}
+
+.one{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:12px;
+	margin-left:5%;
+}
+.two{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:18px;
+	float:right;
+}
+.three{
+	padding-top:5%;
+	padding-bottom:5%;
+		font-size:12px;
+		margin-left:5%;
+}
+.four{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:18px;
+	float:right;
+		margin-left:15%;
+}
+.five{
+	padding-top:5%;
+	padding-bottom:5%;
+		font-size:12px;
+		margin-left:5%;
+}
+.six{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:18px;
+	float:right;
+		margin-left:15%;
+}
+.seven{
+	padding-top:5%;
+	padding-bottom:5%;
+	margin-left:5%;
+		font-size:12px;
+}
+.eight{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:18px;
+		float:right;
+		margin-left:15%;
+}
+.nine{
+	padding-top:5%;
+	padding-bottom:5%;
+		font-size:12px;
+		margin-left:5%;
+}
+.right{
+	margin-left:60%;
+	margin-right:15%;
+
+
+}
+.left{
+	margin-left:15%;
+	margin-right:60%;
+}
