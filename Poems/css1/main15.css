@@ -9,58 +9,58 @@
 .one{
 	padding-top:5%;
 	padding-bottom:5%;
-	font-size:12px;
+	font-size:10px;
 	margin-left:5%;
 }
 .two{
 	padding-top:5%;
 	padding-bottom:5%;
-	font-size:18px;
+	font-size:10px;
 	float:right;
+	margin-left:10%;
 }
 .three{
 	padding-top:5%;
 	padding-bottom:5%;
-		font-size:12px;
-		margin-left:5%;
+		font-size:10px;
+		margin-left:15%;
 }
 .four{
 	padding-top:5%;
 	padding-bottom:5%;
-	font-size:18px;
+	font-size:10px;
 	float:right;
-		margin-left:15%;
+		margin-left:20%;
 }
 .five{
 	padding-top:5%;
 	padding-bottom:5%;
-		font-size:12px;
-		margin-left:5%;
+		font-size:10px;
+		margin-left:25%;
 }
 .six{
 	padding-top:5%;
 	padding-bottom:5%;
-	font-size:18px;
+	font-size:10px;
 	float:right;
-		margin-left:15%;
+		margin-left:20%;
 }
 .seven{
 	padding-top:5%;
 	padding-bottom:5%;
-	margin-left:5%;
-		font-size:12px;
+	margin-left:15%;
+		font-size:10px;
 }
 .eight{
 	padding-top:5%;
 	padding-bottom:5%;
-	font-size:18px;
-		float:right;
-		margin-left:15%;
+	font-size:10px;
+		margin-left:10%;
 }
 .nine{
 	padding-top:5%;
 	padding-bottom:5%;
-		font-size:12px;
+		font-size:10px;
 		margin-left:5%;
 }
 .right{
