@@ -1,0 +1,22 @@
+#box1 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        position: relative;
+        left: 25%;
+        top: 2%;
+        -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    }  
+    #box2 {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        position: static;
+        left: 75%;
+        top: 40%;
+        -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    }  

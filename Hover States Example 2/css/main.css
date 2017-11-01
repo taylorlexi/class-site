@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+	background-color: #FFC0CB;
+}
+
+.objects {
+  
+	  top: 50%;
+    left: 50%;
+    right:50%;
+	position: relative;
+}
+.triangle {
+    background-color: #FFC0CB;
+    width: 20px;
+	height: 20px;
+	border-left: 500px solid transparent;
+	border-right: 500px solid transparent;
+	border-bottom: 300px solid #5F9EA0;
+    margin-right: 10%;
+    padding-top:10%;
+
+    
+    transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+}
+.triangle:hover {  
+    -webkit-filter: blur(80px); /* Safari */
+    filter: blur(80px);      
+}

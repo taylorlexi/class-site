@@ -1,0 +1,127 @@
+body, html {
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.first-row {
+   background-color:  #e60000;
+   font-size:40px;
+   font-family: 'Gloria Hallelujah', cursive;
+}
+.second-row{
+	max-width: 1300px;
+	background-color: #e60000;
+	 padding: 20px 50px;
+    margin: 40px auto 0 auto;
+    display: flex;
+}
+.first{
+	flex:1;
+	background-color: #ff1a1a;
+	padding:0 10px;
+	margin-right:60%;
+	order:1;
+}
+.second{
+	flex:2;
+	background-color: #ff3333;
+	order: 2;
+	padding:0 10px;
+}
+.third{
+	flex:3;
+	background-color: #ff4d4d;
+	order: 3;
+	padding:0 10px;
+}
+.third-row{
+		max-width: !500px;
+	background-color: #ff9900;
+    align-items: stretch;
+    display:flex;
+}
+.one{
+flex:1;
+	background-color:  #ffa31a;
+	padding:0 10px;
+	order:1;
+}
+.two{
+		background-color:#ffad33;
+	padding:0 10px;
+	order:2;
+}
+.three{
+		background-color: #ffb84d;
+	padding:0 10px;
+	order:3;
+}
+.four{
+		background-color: #ffc266;
+	padding:0 10px;
+	order:4;
+}
+.fourth-row {
+    height: 400px;
+    max-width: 800px;
+    margin: 40px auto 40px auto;
+    background-color:  #ffff00;
+    display: flex;
+}
+.centered {
+    color: black;
+    background-color: #ffff99;
+    font-size: 50px;
+    margin: auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+.fifth-row{
+	height:200px;
+	max-width:200px;
+	margin: 45px auto 45px auto;
+	display: flex;
+	background-color:  #006600;
+}
+.trees{
+background-color:#008000;
+   font-size: 15px;
+text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.broccoli{
+background-color: #009900;
+font-size: 15px;
+text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.grass{
+background-color:#00b300;
+font-size: 15px;
+text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.lettuce{
+background-color: #00cc00;
+font-size: 15px;
+text-align:center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.sixth-row{
+	max-width: !400px;
+    margin: 40px auto 0 auto;
+    background-color:#0039e6;
+}
+.poem-1{
+	 background-color: #1a53ff;
+    padding: 10px;
+    flex: 1;
+}
+.poem-2{
+	 background-color: #4d79ff;
+    padding: 10px;
+    flex: 2;
+}
