@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.first, .second, .third,.fourth,.fifth,.sixth,.seventh,.eight,.night, {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.first, .second, .third,.fourth,.fifth,.sixth,.seventh,.eight,.night, :hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+
+<body>
+<div class="title">
+<h1> The Happiness Workshop</h1>
+</div>
+<div class= "introduction">
+<div class="intro-text">
+<p> The 'Happiness Workshop' is a street fair sponsored by New York City Mayor, Bill deBlasio. The event will take place on March 21st, 2018 and will be setp up across Sixth Avenue from 12th St. until 20th St. from 9a.m. till 8p.m. The event is for all New Yorkers, young and old to seperate themselves from their daily routine, go outside, and think about their own sense of being and happiness. The event is on the first day of Spring to get New Yorkers in a good mindset and excited for warmer weather. The event will have tons of activities ranging from yoga classes, to spiritual readings, to dodgeball games, to shopping games. The event is free and we hope as many people that need desbriefing from the cold, snowy winter will come!</p>
+</div>
+</div>
+<h2> Activities at the Street Fair</h2>
+<div class="Activities">
+<div class="grid-1">
+<div class="first">
+<img src="yoga.jpeg" alt="yoga" class="image">
+  <div class="overlay">
+    <div class="text">Fourty-five minute yoga classes on the streets of New York will be given all day. The instructor will vary based on the time of day you come. Yoga is an incredible way to debrief, listen to your body, and lose your mind in the inspirational sayings of your instructor or the rythmic music in the background. Matts, towels, and blocks will be supplied. Come in your stretchy yoga-wear and realx in the loudest streets in the world.</div>
+  </div>
+</div>
+<div class="second">
+<p> Come learn, make, and eat the delcious recipes Martha Stewart will be exhibiting at the Happiness Workshop. She will be teaching and making with us quick and easy recipes for summer: the best popsicle recipes, ice cream recipes, cookie recipes, lemon cake recipes, and how to create baskets out of watermelon. Don't miss out this once in a life time opportunity to bake with one of the best chef's in America. Baking is very therapeudic, by the end of the day you may have a new hobby that your family will love too.</p>
+</div>
+<div class="third">
+<p> There will be a variety of inspirational speakers at the Happiness workshop. People will be speaking on healthy diets, healthy minds, and their personal stories. Trip Advisor will also be showcasing different travel plans available to islands in the Bahamas as well as skii resorts in Canada. You will learn so much about others, and yourself, and may be booking a flight to the beach that night!</p>
+</div>
+</div>
+<div class="grid-2">
+<div class="fourth">
+<p> Have you ever found yourself wanting to talk to someome? Needing to vent but none of your friends will listen anymore? At the Happiness Workshop there will be multiple professional therapsits available to speak about anything on your mind. It's a time to let everything out and be a happier you for the new season. Everything will be between you and the therapist, and they will be available for continued sessions after the event at their specific office.</p>
+</div>
+<div class="fifth">
+<p> Everybody has their own activities that make them happy, but living in New York, most people worship shopping. The Happiness Workshop is going to have a couple of stores open solely for the event. After meeting the store employees at their tent, a few people at a time will be allowed to shop  the entire store with a 40% discount off of everything you find. Just in time for the new summer lines!</p>
+</div>
+<div class="sixth">
+<p> Throwing things, hitting people, New Yorkers always want to push people out of the way. The Happiness Event will help you get all of your built up anger out with a huge 30 vs. 30 person dodgeball game. Get ready to hit, get hit, and laugh until you cry, or just cry from the intense, competitive game against other New Yorkers you've been dreaming of.</p>
+</div>
+</div>
+<div class="grid-3">
+<div class="seventh">
+<p> The little fashionistas of New York can come to the Happiness Workshop and be the models they've always imagined themselves as. Nordstroms will be sponsoring a youth fashion show for girls and boys ages 8 to 15. There will be dressing rooms, racks of clothing from the Nordstroms kid's spring line, and tons of papparazi ready to take their picture. Bring your kids and you are promised to be "the best parent in the world."</p>
+</div>
+<div class="eigth">
+<p> Hunched over all day at the office? Croutching over to keep yourself warm from the negative temperatures outside all winter? The Happiness Workshop will have multiple professional masseaus' ready to get out all of your aches and pains. 20 minute massages will be given in small, private tents to get New Yorker's ready for summer relaxtion. The eucalyptus scrents rubbed on your back will have you thinking you're at a five star resort in Maui, Hawaii.</p>
+</div>
+<div class="ninth">
+<p> Are you constantly telling your kids to stop jumping on the couch? Make them the happiest kids in the world and bring them to the Happiness Workshop. On March 21st, they will be able to get all of their jumpiness out on the bouncy houses and blow-up obstacle courses filling sixth avenue. They will be happy, tired, and never want to jump again.</p>
+</div>
+</div>
+</div>
+<h2> Meet the Happiness Workshop Speakers</h2>
+<div class="Bios">
+<div class="bio-grid">
+<div class="yoga">
+<div class="img">
+ <img src="rachel.jpeg">
+ </div>
+ <div class="rachel-text">
+<p> Rachel Brathen is an instagram-famous Yogi from Aruba. She has been teaching yoga for 10 years and is an incredible inspirational speaker. She talks about grief, the hardships in life, how to move on, and the importance in being happy. After meeting her you will feel like her best friend and want to travel to Aruba for her incredible yoga retreats.</p>
+</div>
+</div>
+<div class= "therapist">
+<div class="img">
+<img src="jen-1.jpg">
+</div>
+<div class="jen-text">
+<p> Jen Stern is a grif counselor from Cleveland, Ohio. She has been working as a therapist for over fiftenn years, has her own blog, and has written her own book. She speaks on the importance of self care, and the best ways to cope with grief.</p>
+</div>
+</div>
+<div class= "chef">
+<div class="img">
+<img src= "michael.jpeg">
+</div>
+<div class="michael-text">
+<p> Michael Symon is an American chef with multiple resturants placed all over America. He is the host of ABC's The Chew and has incredible recipe books. Michael will be speaking on the important of healthy diet, his secrets to great cooking, and how he found cooking to bring out his happiness.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="conclusion">
+<div class="conclusion-text">
+<p> This is a little peek into the first ever Happiness Workshop. We are so excited for the event this spring and hope all New Yorkers get a chance to stop by. Remember, happiness is a journey, not a destination. </p>
+</div>
+</div>
+</body>
+</html>
