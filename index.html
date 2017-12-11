@@ -1,20 +1,462 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style1.css">
+  <title></title>
+<link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
 
+<style>
+    body { 
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("images/maxresdefault.jpg");
+    }
+
+    p {
+      text-align: center;
+      padding-top:15%;
+      }
+
+
+    /*BALL 1*/
+    b {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+      -moz-animation: moveX 10s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+      -o-animation: moveX 10s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+      animation: moveX 10s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+    }
+
+    /*ANIMATION KEYFRAMES FOR BALL 1*/  
+
+    @-webkit-keyframes moveX {
+      from { left: 0; } to { left: 97%; }
+    }
+    @-moz-keyframes moveX {
+      from { left: 0; } to { left: 97%; }
+    }
+    @-o-keyframes moveX {
+      from { left: 0; } to { left: 97%; }
+    }
+    @keyframes moveX {
+      from { left: 0; } to {left: 97%; }
+    }
+    @-webkit-keyframes moveY {
+      from { top: 0; } to { top: 95%; }
+    }
+    @-moz-keyframes moveY {
+      from { top: 0; } to { top: 95%; }
+    }
+    @-o-keyframes moveY {
+      from { top: 0; } to {top: 95%;}
+    }
+    @keyframes moveY {
+      from { top: 0; } to { top: 95%;}
+    } 
+
+
+      /*BALL 2*/  
+
+    .b2 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX2 /*SPEED FOR BALL 2*/  20s linear 0s infinite alternate, moveY2 20s linear 0s infinite alternate;
+      -moz-animation: moveX2 20s linear 0s infinite alternate, moveY2 20s linear 0s infinite alternate;
+      -o-animation: moveX2 20s linear 0s infinite alternate, moveY2 20s linear 0s infinite alternate;
+      animation: moveX2 20s linear 0s infinite alternate, moveY2 20s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 2*/  
+
+
+    @-webkit-keyframes moveX2 {
+      from { left: 97%; } to { left: 0; }
+    }
+    @-moz-keyframes moveX2 {
+    from { left: 97%; } to { left: 0; }
+      }
+    @-o-keyframes moveX2 {
+    from { left: 97%; } to { left: 0; }
+      }
+    @keyframes moveX2 {
+    from { left: 97%; } to { left: 0; }
+      }
+    @-webkit-keyframes moveY2 {
+      from { top: 45%; } to { top: 0; }
+    }
+    @-moz-keyframes moveY2 {
+      from { top: 45%; } to { top: 0; }
+    }
+    @-o-keyframes moveY2 {
+     from { top: 45%; } to { top: 0; }
+    }
+    @keyframes moveY2 {
+    from { top: 45%; } to { top: 0; }
+    } 
+
+
+    /*BALL 3*/  
+
+    .b3 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX3 10s linear 0s infinite alternate, moveY3 10s linear 0s infinite alternate;
+      -moz-animation: moveX3 10s linear 0s infinite alternate, moveY3 10s linear 0s infinite alternate;
+      -o-animation: moveX3 10s linear 0s infinite alternate, moveY3 10s linear 0s infinite alternate;
+      animation: moveX3 10s linear 0s infinite alternate, moveY3 10s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 3*/  
+
+
+    @-webkit-keyframes moveX3 {
+      from { left: 50%; } to { left: 0; }
+    }
+    @-moz-keyframes moveX3 {
+    from { left: 50%; } to { left: 0; }
+      }
+    @-o-keyframes moveX3 {
+    from { left: 50%; } to { left: 0; }
+      }
+    @keyframes moveX3 {
+    from { left: 50%; } to { left: 0; }
+      }
+    @-webkit-keyframes moveY3 {
+      from { top: 0; } to { top: 80%; }
+    }
+    @-moz-keyframes moveY3 {
+      from { top: 0; } to { top: 80%; }
+    }
+    @-o-keyframes moveY3 {
+     from { top: 0; } to { top: 80%; }
+    }
+    @keyframes moveY3 {
+    from { top: 0; } to { top: 80%;}
+    }
+
+  .b4 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX4 10s linear 0s infinite alternate, moveY4 10s linear 0s infinite alternate;
+      -moz-animation: moveX4 10s linear 0s infinite alternate, moveY4 10s linear 0s infinite alternate;
+      -o-animation: moveX4 10s linear 0s infinite alternate, moveY4 10s linear 0s infinite alternate;
+      animation: moveX4 10s linear 0s infinite alternate, moveY4 10s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 4*/  
+
+
+    @-webkit-keyframes moveX4 {
+      from { left: 30%; } to { left: 0; }
+    }
+    @-moz-keyframes moveX4 {
+    from { left: 30%; } to { left: 0; }
+      }
+    @-o-keyframes moveX4 {
+    from { left: 30%; } to { left: 0; }
+      }
+    @keyframes moveX4 {
+    from { left: 30%; } to { left: 0; }
+      }
+    @-webkit-keyframes moveY4 {
+      from { top: 0; } to { top: 60%; }
+    }
+    @-moz-keyframes moveY4 {
+      from { top: 0; } to { top: 60%; }
+    }
+    @-o-keyframes moveY4 {
+     from { top: 0; } to { top: 60%; }
+    }
+    @keyframes moveY4 {
+    from { top: 0; } to { top: 60%;}
+    }
+
+      .b5 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX5 5s linear 0s infinite alternate, moveY5 5s linear 0s infinite alternate;
+      -moz-animation: moveX5 5s linear 0s infinite alternate, moveY5 5s linear 0s infinite alternate;
+      -o-animation: moveX5 5s linear 0s infinite alternate, moveY5 5s linear 0s infinite alternate;
+      animation: moveX5 5s linear 0s infinite alternate, moveY5 5s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 4*/  
+
+
+    @-webkit-keyframes moveX5 {
+      from { left: 10%; } to { left: 0; }
+    }
+    @-moz-keyframes moveX5 {
+    from { left: 10%; } to { left: 0; }
+      }
+    @-o-keyframes moveX5 {
+    from { left: 10%; } to { left: 0; }
+      }
+    @keyframes moveX5 {
+    from { left: 10%; } to { left: 0; }
+      }
+    @-webkit-keyframes moveY5 {
+      from { top: 0; } to { top: 90%; }
+    }
+    @-moz-keyframes moveY5 {
+      from { top: 0; } to { top: 90%; }
+    }
+    @-o-keyframes moveY5 {
+     from { top: 0; } to { top: 90%; }
+    }
+    @keyframes moveY5 {
+    from { top: 0; } to { top: 80%;}
+    }
+
+      .b6 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX6 25s linear 0s infinite alternate, moveY6 25s linear 0s infinite alternate;
+      -moz-animation: moveX6 25s linear 0s infinite alternate, moveY6 25s linear 0s infinite alternate;
+      -o-animation: moveX6 25s linear 0s infinite alternate, moveY6 25s linear 0s infinite alternate;
+      animation: moveX6 25s linear 0s infinite alternate, moveY6 25s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 3*/  
+
+
+    @-webkit-keyframes moveX6 {
+      from { left: 0; } to { left: 30%; }
+    }
+    @-moz-keyframes moveX6 {
+    from { left: 0; } to { left: 30%; }
+      }
+    @-o-keyframes moveX6 {
+    from { left: 0; } to { left: 30%; }
+      }
+    @keyframes moveX6 {
+    from { left: 0; } to { left: 30%; }
+      }
+    @-webkit-keyframes moveY6 {
+      from { top: 80%; } to { top: 0; }
+    }
+    @-moz-keyframes moveY6 {
+      from { top: 80%; } to { top: 0; }
+    }
+    @-o-keyframes moveY6 {
+     from { top: 80%; } to { top: 0; }
+    }
+    @keyframes moveY6 {
+    from { top: 80%; } to { top: 0;}
+    }
+
+      .b7 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX7 5s linear 0s infinite alternate, moveY7 5s linear 0s infinite alternate;
+      -moz-animation: moveX7 5s linear 0s infinite alternate, moveY7 5s linear 0s infinite alternate;
+      -o-animation: moveX7 5s linear 0s infinite alternate, moveY7 5s linear 0s infinite alternate;
+      animation: moveX7 5s linear 0s infinite alternate, moveY7 5s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 3*/  
+
+
+    @-webkit-keyframes moveX7 {
+      from { left: 0; } to { left: 98%; }
+    }
+    @-moz-keyframes moveX7 {
+    from { left: 0; } to { left: 98%; }
+      }
+    @-o-keyframes moveX7 {
+    from { left: 0; } to { left: 98%; }
+      }
+    @keyframes moveX7 {
+    from { left: 0; } to { left: 98%; }
+      }
+    @-webkit-keyframes moveY7 {
+      from { top: 20%; } to { top: 0; }
+    }
+    @-moz-keyframes moveY7 {
+      from { top: 20%; } to { top: 0; }
+    }
+    @-o-keyframes moveY7 {
+     from { top: 20%; } to { top: 0; }
+    }
+    @keyframes moveY7 {
+    from { top: 20%; } to { top: 0;}
+    }
+
+      .b8 {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      -webkit-animation: moveX8 8s linear 0s infinite alternate, moveY8 8s linear 0s infinite alternate;
+      -moz-animation: moveX8 8s linear 0s infinite alternate, moveY8 8s linear 0s infinite alternate;
+      -o-animation: moveX8 8s linear 0s infinite alternate, moveY8 8s linear 0s infinite alternate;
+      animation: moveX8 8s linear 0s infinite alternate, moveY8 8s linear 0s infinite alternate;
+    }
+
+
+    /*ANIMATION KEYFRAMES FOR BALL 3*/  
+
+
+    @-webkit-keyframes moveX8 {
+      from { left: 0; } to { left: 45%; }
+    }
+    @-moz-keyframes moveX8 {
+    from { left: 0; } to { left: 45%; }
+      }
+    @-o-keyframes moveX8 {
+    from { left: 0; } to { left: 45%; }
+      }
+    @keyframes moveX8 {
+    from { left: 0; } to { left: 45%; }
+      }
+    @-webkit-keyframes moveY8 {
+      from { top: 80%; } to { top: 0; }
+    }
+    @-moz-keyframes moveY8 {
+      from { top: 80%; } to { top: 0; }
+    }
+    @-o-keyframes moveY8 {
+     from { top: 80%; } to { top: 0; }
+    }
+    @keyframes moveY8 {
+    from { top: 80%; } to { top: 0;}
+    }
+      
+
+.circle2, .circle4, .circle6, .circle8, .circle9, .circle11, .circle13{
+
+  border-radius: 50%;
+    border-width: 5px;
+    height: 75px;
+    width: 80px;
+    text-align:center;
+  background-color: #c4c7ce;
+}
+.circle2{
+  margin-left:30%;
+}
+.circle4{
+  margin-left:60%;
+}
+.circle6{
+  margin-left:20%;
+}
+.circle8{
+  margin-left:50%;
+}
+.circle9{
+  margin-left:70%;
+}
+.circle11{
+  margin-left:40%;
+}
+.circle13{
+  margin-left:15%;
+}
+
+a{
+    font-size:12px;
+    text-align:center;
+    color:black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h1{
+  font-size:80px;
+font-family: 'Della Respira', serif;
+  text-align:center;
+  color:white;
+}
+
+</style>
+
+</head>
 <body>
-<h1> Main Page</h1>
+<h1> Taylor's Work</h1>
+<div class="circle2">
 <p><a href="20 Variations/index.html"> 20 Variations</a></p>
-<p><a href="Microsite/index.html"> Microsite</a></p>
+</div>
+<div class="circle4">
 <p><a href="Malevich_Exercise/index.html">Malevich Excercise</a></p>
+</div>
+<div class="circle6">
+<p><a href="Microsite/index.html"> Microsite</a></p>
+</div>
+<div class="circle8">
 <p><a href="Flex/index.html">Flex</a></p>
+</div>
+<div class="circle9">
 <p><a href="Hover States Example 1/index.html">Hover States Example 1</a></p>
+</div>
+<div class="circle11">
 <p><a href="Hover States Example 2/index.html">Hover States Example 2</a></p>
+</div>
+<div class="circle13">
 <p><a href="responsive/index.html">responsive</a></p>
+</div>
+<div class="box"><b></b></div>
+  <div class="box"><b class="b2"></b></div>
+  <div class="box"><b class="b3"></b></div>
+  <div class="box"><b class="b4"></b></div>
+  <div class="box"><b class="b5"></b></div>
+  <div class="box"><b class="b6"></b></div>
+  <div class="box"><b class="b7"></b></div>
+  <div class="box"><b class="b8"></b></div>
 
 </body>
 </html>
